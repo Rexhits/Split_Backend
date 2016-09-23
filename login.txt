@@ -1,0 +1,14 @@
+ssh -i ~/.ssh/mykeypair.pem ubuntu@ec2-54-174-189-134.compute-1.amazonaws.com
+
+//run in background
+nohup node server.js &
+
+//kill it in background
+ps -ef 
+kill + id
+
+//logout
+logout
+
+//public DNS
+ec2-54-174-189-134.compute-1.amazonaws.com
